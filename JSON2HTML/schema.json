@@ -1,0 +1,32 @@
+{  
+  "question1":{  
+    "title":"Help User",
+    "type":"object",
+    "properties":{  
+      "selectedOption":{  
+        "type":"string",
+        "title":"Where was the ticket issued?",
+        "enum":[  
+          "UK",
+          "US"
+        ],
+        "required":true
+      }
+    }
+  },
+  "question2":{  
+    "title":"Help User",
+    "type":"object",
+    "properties":{  
+      "selectedOption":{  
+        "type":"string",
+        "title":"Which of these best describes why you shouldn't receive a parking ticket.",
+        "enum":[  
+          "My car was stolen before I got the ticket",
+          "I was travelling to hospital urgently"
+        ],
+        "required":true
+      }
+    }
+  }
+}

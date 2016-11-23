@@ -1,0 +1,25 @@
+{  
+  "_comment":"this json file is used to define the next step in the workflow",
+  "question1":[  
+    {  
+      "answer":"answer1",
+      "next":"question2"
+    },
+    {  
+      "answer":"answer2",
+      "next":"question3"
+    }
+  ],
+  "question2":[  
+    {  
+      "answer":"answer3",
+      "next":"form1"
+    }
+  ],
+  "question3":[  
+    {  
+      "answer":"answer4",
+      "next":"form2"
+    }
+  ]
+}
